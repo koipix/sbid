@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "sbai",
+  "version": "${version}",
+  "name": "StopBeingAnIdiot",
+  "description": "If one player dies, everyone dies.",
+  "authors": [
+    "srnyx"
+  ],
+  "contact": {
+    "homepage": "https://srnyx.com",
+    "sources": "https://github.com/srnyx/stop-being-an-idiot"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "xyz.srnyx.stopbeinganidiot.fabric.StopBeingAnIdiotFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
